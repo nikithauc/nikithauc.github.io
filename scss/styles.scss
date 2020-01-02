@@ -473,6 +473,11 @@ footer {
     h2 {
         color: $heading;
     }
+
+    li {
+        color: $text;
+        font-size: 0.9em;
+    }
 }
 
 #experience-timeline {
@@ -610,6 +615,7 @@ footer {
         color: $text;
         clear: both;
         font-weight: 500;
+        float: left;
         margin: 0 0 15px 0;
     }
 
@@ -617,6 +623,7 @@ footer {
         margin: 0;
         color: $text;
         font-size: 0.9em;
+        clear: both;
     }
 
     ul {
@@ -638,6 +645,27 @@ footer {
     h2 {
         color: $heading;
         margin-bottom: 50px;
+    }
+}
+
+.project-skills {
+    text-align: center;
+
+    ul {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 800px;
+    }
+
+    li {
+        display: inline-block;
+        padding: 5px 10px;
+        background: darken($background-alt, 5%);
+        list-style: none;
+        cursor: default;
+        margin: 0 0 15px 0;
+        font-size: 0.9em;
     }
 }
 
