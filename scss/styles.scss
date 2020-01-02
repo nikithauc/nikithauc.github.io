@@ -292,6 +292,23 @@ footer {
     }
 }
 
+.social-top {
+    border: 1px solid;
+    border-color: rgba(229,230,233,0.5) rgba(223,224,228,0.5) #d0d1d5;
+    border-radius: 3px;
+    background: #fff;
+    color: #282828;
+    font-size: 3em;
+}
+
+.fa-linkedin {
+    color:#0e76a8
+}
+
+.fa-github {
+    color:#333
+}
+
 .btn-rounded-white {
     display: inline-block;
     color: #fff;
